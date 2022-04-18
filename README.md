@@ -1,6 +1,6 @@
 # Project: Nautral Disaster Aid and Demographics
 ### Team: (la)Monty Python 
-### Team Members: Aditya (12332247), Ali (12273952), Wes (12324662) and Zander (12273788)
+### Team Members: Aditya, Ali), Wes and Zander
 
 ## Project Overview
 Our project enables exploration of various demographic, economic, and political features on federal government aid to counties after natural disasters in the U.S. We collect data from several government sources, including the Census Bureau and FEMA, to capture demographic, economic, and natural disaster measures. Our project includes a Plotly Dash interface where users can interact with the data to explore the relationship between various demographic variables and FEMA aid provided to counties affected by natural disasters. 
@@ -52,8 +52,3 @@ To launch the user interface from the UChicago Virtual Desktop (locally, skip to
 4. Once the script is running you should see a URL to the dash app in the terminal like this:  
     ``Dash is running on http://127.0.0.1:8050/``  
 Copy the url into Google Chrome (not Firefox, not all visuals will work) and you're in!  
-
-## Goals & Accomplishments
-In our project, we generally sought to create an application that enabled users to explore and understand the relationship between demographic characteristics and aid received by counties affected by natural disasters that was easily scalable. We accomplished our goal of creating a piece of functional software that allows users to explore most natural disasters in the time period 2010-2019 since our application connects directly to FEMA and ACS data APIs. We also built a suit of statistical models that focus on several natural disasters, but can also be easily scaled to incorporate more natural disasters because of the modular design of our data connection and regression models.
-
-If we were to improve further on our project, we would work to get a deeper understanding of the FEMA data beyond what could be gleaned from the FEMA documentation and we would make our regression models more robust by increasing data granularity and cleanliness. The FEMA documentation was vague around some key variables, such as specific types of aid and their significance, that we used in our analysis and would require clarification from a data SME. The regression analysis suffers from data gaps seen in both the ACS and FEMA datasets. For example, there is no data for Puerto Rico. The lack of significance seen in our regressions can very likely be an attribute of this. In future versions of this project, expanded efforts to root out the true effect of neighborhood characteristics on FEMA aid could be undertaken.
